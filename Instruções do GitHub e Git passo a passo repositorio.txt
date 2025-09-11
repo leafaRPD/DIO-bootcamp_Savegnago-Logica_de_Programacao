@@ -25,9 +25,6 @@ git push -u origin main
 
 	--> Quando o repositório já existe e for atualizar; não é a primeira vez que mandará para o repositório:
 
-(tirar o <> e deixar apenas o link)
-git remote add origin <exemplo: https://github.com/leafaRPD/IndiciumAI-Engineering.git>
-
 git branch -M main
 
 git push -u origin main
