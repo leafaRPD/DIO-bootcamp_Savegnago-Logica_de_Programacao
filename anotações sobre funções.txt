@@ -1,0 +1,58 @@
+anotações sobre funções:
+
+
+let resultado = soma(5, 10)
+
+console.log("O resultado dessa função é " + resultado)
+
+function soma (numA, numB){
+	let somatorio = numA + numB
+	return somatório
+}
+
+
+	Esta forma completa é o procedimento considerado mais correto.
+		
+	outra forma de fazer a função acima:
+trocar a parte do meio, em 'let somatório...', de forma mais direta.
+
+
+let resultado = soma(5, 10)
+
+console.log("O resultado dessa função é " + resultado)
+
+function soma (numA, numB){
+	return numA + numB
+}
+
+
+
+Instrução split:
+
+let userName = getFirstName("Arnaldo Mansur Antunes")
+// Aqui, o objetivo é que o userName seja apenas o primeiro nome da pessoa
+
+console.log("Seja bem vindo, " + userName)
+
+function getFirstName(name){
+	let firstName = name.split(" ")[0] //aqui, criará um vetor vazio, pegará o nome lá de cima e a cada espaço que tiver <por isso o " ">, separará e adicionará ao vetor vazio. Resultado: [Arnaldo, Mansur, Antunes]
+	return firstName
+}
+
+//resultado: "Seja bem vindo, Arnaldo"
+
+	E se o nome viesse dividido por traços ao invés de espaços?
+Aí basta alterar a função e incluir um parâmetro para informar qual o caractere usado para separar os nomes:
+
+let userName = getFirstName("Zeza-Mansur-Antunes", "-")
+console.log("Seja bem vindo, " + userName)
+
+function getFirstName(name, splitChar){
+	let firstName = name.split(splitChar)[0]
+	return firstName
+}
+
+//resultado: "Seja bem vindo, Zeza"
+
+
+

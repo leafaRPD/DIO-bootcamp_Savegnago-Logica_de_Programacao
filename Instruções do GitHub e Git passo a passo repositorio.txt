@@ -1,5 +1,8 @@
 			instruções git GitHub 
 
+Tem que revisar estas instruções
+
+
 	--> Para criar um projeto no PC, basta abrir uma pasta e criar os arquivos no próprio PC.
 
 	--> Para mandar o repositório do PC pro GitHub pela primeira vez:
