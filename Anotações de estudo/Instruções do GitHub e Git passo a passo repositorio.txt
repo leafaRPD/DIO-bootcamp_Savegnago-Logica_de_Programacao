@@ -25,6 +25,12 @@ git push -u origin main
 
 	--> Quando o repositório já existe e for atualizar; não é a primeira vez que mandará para o repositório:
 
+git pull origin nome-da-branch // para baixar as alterações mais recentes
+
+git add .
+
+git commit -m "comentário deste commit"
+
 git branch -M main
 
 git push -u origin main

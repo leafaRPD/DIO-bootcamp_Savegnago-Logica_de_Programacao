@@ -7,7 +7,7 @@ console.log("O resultado dessa função é " + resultado)
 
 function soma (numA, numB){
 	let somatorio = numA + numB
-	return somatorio
+	return somatório
 }
 
 
@@ -53,6 +53,4 @@ function getFirstName(name, splitChar){
 }
 
 //resultado: "Seja bem vindo, Zeza"
-
-
 
