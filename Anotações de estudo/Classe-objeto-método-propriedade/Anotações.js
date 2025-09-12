@@ -1,4 +1,4 @@
-//classe -> forma para fazer bolos 
+//classe -> fôrma para fazer bolos 
 class formaDeBolo{
 	constructor(saborDaMassa, saborRecheio){
 		this.saborDaMassa = saborDaMassa
